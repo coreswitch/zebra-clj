@@ -12,4 +12,5 @@
                  [org.clojure/data.json "0.2.6"]]
   :main ^:skip-aot zebra-clj.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :java-source-paths ["build/generated/source/proto/main"])
